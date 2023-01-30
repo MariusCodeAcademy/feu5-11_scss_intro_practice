@@ -4,3 +4,20 @@
 @import 'common';
 @import 'vars';
 @import 'custom';
+
+// variables
+$primary-color: #333;
+$secondary-color: coral;
+$bg-main-color: #f3f3f3;
+
+h1 {
+  color: $primary-color;
+}
+
+body {
+  background-color: $bg-main-color;
+}
+
+h2 {
+  // secondary color
+}

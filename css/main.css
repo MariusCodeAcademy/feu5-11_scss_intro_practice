@@ -73,6 +73,14 @@ a {
   text-align: center;
 }
 
+.card, article {
+  border: 1px solid #000;
+  -webkit-box-shadow: 4px 4px 10px darkblue;
+          box-shadow: 4px 4px 10px darkblue;
+  padding: 1em 2em;
+  border-radius: 2rem;
+}
+
 h1 {
   font-size: 4rem;
   font-weight: normal;
@@ -94,10 +102,19 @@ main .art-text {
   line-height: 1.5;
 }
 
+article {
+  -webkit-box-shadow: 4px 4px 10px #b3b3b3;
+          box-shadow: 4px 4px 10px #b3b3b3;
+}
+
 h1 {
   color: #333;
 }
 
 body {
   background-color: #f3f3f3;
+}
+
+h2 {
+  color: darkblue;
 }/*# sourceMappingURL=main.css.map */

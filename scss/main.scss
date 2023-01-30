@@ -1,23 +1,21 @@
+// recomended way
+@use 'vars';
+
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
 
 // sass import - not recomended anymore
 @import 'common';
-@import 'vars';
 @import 'custom';
 
-// variables
-$primary-color: #333;
-$secondary-color: coral;
-$bg-main-color: #f3f3f3;
-
 h1 {
-  color: $primary-color;
+  color: vars.$primary-color;
 }
 
 body {
-  background-color: $bg-main-color;
+  background-color: vars.$bg-main-color;
 }
 
 h2 {
   // secondary color
+  color: vars.$secondary-color;
 }

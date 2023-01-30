@@ -101,10 +101,21 @@ main .art-title {
 main .art-text {
   line-height: 1.5;
 }
+main .art-text span {
+  background-color: coral;
+}
 
 article {
   -webkit-box-shadow: 4px 4px 10px #b3b3b3;
           box-shadow: 4px 4px 10px #b3b3b3;
+}
+
+html {
+  --main-color-css: tomato;
+}
+
+.aside-text {
+  color: var(--main-color-css);
 }
 
 h1 {
@@ -117,4 +128,18 @@ body {
 
 h2 {
   color: darkblue;
+}
+
+.btn {
+  background-color: deepskyblue;
+  border: 1px solid deepskyblue;
+  font-size: 1.6rem;
+  padding: 0.5em 1em;
+}
+
+.button-large {
+  background-color: deepskyblue;
+  border: 1px solid deepskyblue;
+  font-size: 3rem;
+  padding: 0.5em 1em;
 }/*# sourceMappingURL=main.css.map */

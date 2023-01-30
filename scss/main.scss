@@ -7,6 +7,15 @@
 @import 'common';
 @import 'custom';
 
+// css variable
+html {
+  --main-color-css: tomato;
+}
+// use css variable
+.aside-text {
+  color: var(--main-color-css);
+}
+
 h1 {
   color: vars.$primary-color;
 }
@@ -19,3 +28,24 @@ h2 {
   // secondary color
   color: vars.$secondary-color;
 }
+
+// mixins
+// sukuriam
+
+@mixin button-styles($size: 1.6rem) {
+  background-color: deepskyblue;
+  border: 1px solid deepskyblue;
+  font-size: $size;
+  padding: 0.5em 1em;
+}
+
+// itraukiam
+.btn {
+  @include button-styles();
+}
+
+.button-large {
+  @include button-styles(3rem);
+}
+
+// .button-extra-large - font size 5rem, prideti borderio stori 3 px

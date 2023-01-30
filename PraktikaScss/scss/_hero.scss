@@ -1,0 +1,8 @@
+.hero {
+  height: 100vh;
+  min-height: 40rem;
+  display: grid;
+  place-items: center;
+  background: url('../img/header.jpg') no-repeat center;
+  background-size: cover;
+}

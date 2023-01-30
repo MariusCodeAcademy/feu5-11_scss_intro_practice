@@ -78,6 +78,18 @@ h1 {
   font-weight: normal;
 }
 
-article {
-  border-bottom: 1px solid #000;
+.grid {
+  display: grid;
+  grid-template-columns: 60% auto;
+  gap: 2rem;
+}
+
+main .art {
+  background-color: tomato;
+}
+main .art-title {
+  font-weight: normal;
+}
+main .art-text {
+  line-height: 1.5;
 }/*# sourceMappingURL=main.css.map */

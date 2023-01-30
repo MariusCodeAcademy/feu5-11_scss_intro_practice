@@ -1,3 +1,19 @@
-article {
-  border-bottom: 1px solid #000;
+.grid {
+  display: grid;
+  grid-template-columns: 60% auto;
+  gap: 2rem;
+}
+
+// nusitaikyti i main esanti article
+
+main {
+  .art {
+    background-color: tomato;
+  }
+  .art-title {
+    font-weight: normal;
+  }
+  .art-text {
+    line-height: 1.5;
+  }
 }

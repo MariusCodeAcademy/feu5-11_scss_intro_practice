@@ -1,0 +1,18 @@
+@mixin py($size: 1rem) {
+  padding-top: $size;
+  padding-bottom: $size;
+}
+
+.cta {
+  // padding-top: 7rem;
+  // padding-bottom: 7rem;
+  @include py(7rem);
+
+  h2 {
+    font-size: 4.5rem;
+  }
+  .cta-text {
+    font-size: 2rem;
+    line-height: 1.75;
+  }
+}

@@ -48,7 +48,7 @@ a {
   padding-left: 10px;
   padding-right: 10px;
   /* apridboti tik maximalu ploti */
-  max-width: 80rem;
+  max-width: 120rem;
   /* skaiciuoti parastes automatiskai vienodai is kaires ir is desines */
   margin: 0 auto;
 }
@@ -102,17 +102,55 @@ a {
   color: white;
 }
 .text-box h1 {
-  font-weight: 300;
   font-size: 4.5rem;
   margin-bottom: 0.6em;
+  color: white;
 }
 .text-box .lead {
   font-size: 2.5rem;
   font-weight: 300;
   margin-bottom: 1em;
+  color: white;
+  line-height: 1.75;
 }
 .text-box a {
   text-transform: uppercase;
   font-size: 2.5rem;
   border-bottom: 1px dotted white;
+}
+
+.cta {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.cta h2 {
+  font-size: 4.5rem;
+}
+.cta .cta-text {
+  font-size: 2rem;
+  line-height: 1.75;
+}
+
+@media screen and (max-width: 560px) {
+  html {
+    font-size: 50%;
+  }
+  .hero {
+    height: 100vh;
+    min-height: 20rem;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #666;
+  font-weight: 100;
+}
+
+p {
+  color: #888;
+  font-weight: 300;
 }/*# sourceMappingURL=main.css.map */

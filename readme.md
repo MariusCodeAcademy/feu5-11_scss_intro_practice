@@ -4,3 +4,7 @@
 2. pagal nutylejima stulpeliu yra 3
 3. galima pakeisti stulpeliu skaiciu,
 4. galima pakeisti gap.
+
+## praktika
+
+https://html5up.net/tessellate darom sita tik desktop

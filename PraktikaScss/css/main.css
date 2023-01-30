@@ -6,7 +6,8 @@
 html {
   /* 1 rem = 10px */
   font-size: 62.5%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
 }
 
 p,
@@ -72,6 +73,21 @@ a {
   text-align: center;
 }
 
+.btn {
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 1.7rem 6rem;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  font-weight: 300;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
 .hero {
   height: 100vh;
   min-height: 40rem;
@@ -79,4 +95,24 @@ a {
   place-items: center;
   background: url("../img/header.jpg") no-repeat center;
   background-size: cover;
+}
+
+.text-box {
+  text-align: center;
+  color: white;
+}
+.text-box h1 {
+  font-weight: 300;
+  font-size: 4.5rem;
+  margin-bottom: 0.6em;
+}
+.text-box .lead {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 1em;
+}
+.text-box a {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  border-bottom: 1px dotted white;
 }/*# sourceMappingURL=main.css.map */

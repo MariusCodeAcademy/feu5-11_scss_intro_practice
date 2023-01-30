@@ -1,0 +1,5 @@
+/* itraukti kita css faila i sita css faila */
+@import 'common.css';
+
+/* add font awesome from the web */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');

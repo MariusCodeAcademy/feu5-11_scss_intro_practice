@@ -59,7 +59,7 @@ article {
 
 .dezes {
   // elemetai eitu is virsaus zemyn ir butu desineje
-  @include myFlex(0.5rem, column, flex-end);
+  @include myFlex(1rem, column, flex-end);
 }
 
 .boxes,

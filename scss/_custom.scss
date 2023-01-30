@@ -40,3 +40,39 @@ article {
   @extend .card;
   box-shadow: 4px 4px 10px lighten($color: #333, $amount: 50%);
 }
+
+// boxes
+
+// flex mixin
+
+@mixin myFlex($gapSize: 1rem, $direction: row, $align: center) {
+  display: flex;
+  flex-direction: $direction;
+  gap: $gapSize;
+  justify-content: center;
+  align-items: $align;
+}
+
+.boxes {
+  @include myFlex(2rem);
+}
+
+.dezes {
+  // elemetai eitu is virsaus zemyn ir butu desineje
+  @include myFlex(0.5rem, column, flex-end);
+}
+
+.boxes,
+.dezes {
+  min-height: 30rem;
+  background-color: desaturate($color: tomato, $amount: 40%);
+  border: 1px solid #000;
+  margin-bottom: 10rem;
+}
+
+.box {
+  width: 7rem;
+  height: 7rem;
+  border: 1px solid #000;
+  background-color: white;
+}
